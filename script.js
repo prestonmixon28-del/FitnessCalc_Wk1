@@ -11,3 +11,6 @@ let caloriesBurned = steps * caloriesPerStep;
 
 console.log("Steps: " + steps);
 console.log("Calories burnt: " + caloriesBurned)
+
+let message = "Great job, " + userName + " You moved " + caloriesBurned + "calories today.");
+console.log(message);
